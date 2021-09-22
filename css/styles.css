@@ -3,16 +3,41 @@ font-family: 'Mirza', cursive;
 font-family: 'Montserrat', sans-serif;
  */
 
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: ;
+  color: ;
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+button {
+  font-size: ;
+  font-family: ;
+}
+
+button {
+  cursor: pointer;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   background-image: url(/imagens/purplemoon-bg.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: right;
+  text-align: center;
 }
 
 .box {
-  background-color: rgba(234, 197, 255, 0.514);
+  background-color: rgba(222, 197, 255, 0.74);
 }
 
 h1,
@@ -24,6 +49,13 @@ h6 {
   font-family: "Mirza", cursive;
 }
 
-#clock-box a {
+#clock-box {
   font-family: "Mirza", cursive;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 40px;
 }
