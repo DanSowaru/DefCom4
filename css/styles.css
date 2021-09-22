@@ -1,0 +1,29 @@
+/* FONTS
+font-family: 'Mirza', cursive;
+font-family: 'Montserrat', sans-serif;
+ */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url(/imagens/purplemoon-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: right;
+}
+
+.box {
+  background-color: rgba(234, 197, 255, 0.514);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Mirza", cursive;
+}
+
+#clock-box a {
+  font-family: "Mirza", cursive;
+}
