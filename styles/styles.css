@@ -33,6 +33,11 @@ body {
   transform: 0.2s;
 }
 
+.menu-cards.col {
+  display: flex;
+  align-self: center;
+}
+
 .menu-cards h5 {
   font-size: 450%;
   position: relative;
@@ -96,16 +101,20 @@ h6 {
   right: 0;
   /* height: 100px; */
   width: 100%;
-  padding-top: 75px;
+  padding-top: 95px;
   padding-bottom: 25px;
 }
 
 .pageContentWrapper {
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 @media only screen and (max-width: 1000px) {
   .menu-cards h5 {
-    font-size: x-large;
+    font-size: small;
+    width: 110%;
+    position: relative;
+
+    right: 5%;
   }
 }
