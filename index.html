@@ -8,13 +8,19 @@
     <title></title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Mirza:wght@400;700&family=Montserrat:ital,wght@0,300;0,600;1,300;1,600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
   </head>
 
   <!-- --------------Body--------------- -->
@@ -43,17 +49,69 @@
     </header>
 
     <!-- Main -->
-    <main></main>
+    <main class="pageContentWrapper">
+      <div class="menu-cards">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="card bg-dark text-white">
+                <a href="incomplete.html">
+                  <img
+                    src="/imagens/system-card.png"
+                    class="card-img"
+                    alt="Game System"
+                  />
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">Sistema</h5>
+                    <p class="card-text"></p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card bg-dark text-white">
+                <a href="incomplete.html">
+                  <img
+                    src="/imagens/story-card.png"
+                    class="card-img"
+                    alt="Game Story"
+                  />
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">História</h5>
+                    <p class="card-text"></p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card bg-dark text-white">
+                <a href="incomplete.html">
+                  <img
+                    src="/imagens/world-card.png"
+                    class="card-img"
+                    alt="Game World"
+                  />
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">Mundo</h5>
+                    <p class="card-text"></p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <!-- Footer -->
 
     <footer>
       <div class="box" id="footer">
-        <h2>Em breve, um site DefCom4</h2>
+        <h2>Em breve, um site DefCom4<sup>©</sup></h2>
       </div>
     </footer>
 
     <!-- Script -->
-    <script src="" async defer></script>
+    <script src="scripts/scripts.js" async defer></script>
   </body>
 </html>
